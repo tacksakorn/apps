@@ -5,7 +5,7 @@
 # Start the Assist Satellite service (linux-voice-assistant)
 # ==============================================================================
 declare -a extra_args=()
-
+extra_args+=('--listen-during-wake-sound')
 # Debug logging
 if bashio::config.true 'debug_logging'; then
     extra_args+=('--debug')
