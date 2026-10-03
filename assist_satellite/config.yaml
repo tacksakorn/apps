@@ -1,7 +1,7 @@
 ---
 version: 1.1.15
 slug: assist_satellite
-name: Assist Satellite
+name: Assist Satellite Fast Wake
 description: Turn HA host into a voice assistant with a connected microphone and speaker
 url: https://github.com/OHF-Voice/apps/blob/main/assist_satellite
 hassio_api: false
